@@ -31,6 +31,7 @@ export default function Header({}: Props) {
      <SocialIcon url='https://github.com/berkanbasaran05' bgColor='transparent' fgColor='white'/>
      <SocialIcon url='https://www.instagram.com/berbasgram/' bgColor='transparent' fgColor='white'/>
      <SocialIcon url='https://www.linkedin.com/in/berkan-ba%C5%9Faran-67873921b//' bgColor='transparent' fgColor='white'/>
+     <SocialIcon url='https://www.youtube.com/watch?v=an5LH3K44ks' bgColor='transparent' fgColor='white'/>
 
     
         
