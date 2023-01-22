@@ -12,7 +12,7 @@
   }
 
   .submitButton {
-    @apply   bg-white text-black  h-16  rounded-xl text-2xl hover:opacity-90  items-center 
+    @apply   bg-white text-black  h-12  rounded-xl text-2xl hover:opacity-90  items-center 
      }
 
 }
