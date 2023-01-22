@@ -6,14 +6,14 @@ type Props = {}
 
 function Footer({}: Props) {
   return (
-    <div className='sticky flex flex-row items-center justify-between mx-auto h-[100px] max-w-7xl text-white space-x-3'>
+    <div className='sticky flex flex-row items-center justify-between sm:justify-center mx-auto h-[100px] max-w-7xl text-white space-x-3 sm:text-xs sm:p-4 '>
 
-       <div className='flex flex-row space-x-2'> <h3 className=''> © 2023 Design by berkanbasaran</h3>
+       <div className='flex flex-row space-x-2 sm:space-x-1 items-center'> <h3 className=''> © 2023 Design by berkanbasaran</h3>
         <h3>Made with</h3>
         <HeartIcon className=' w-7 h-7'/>
         <h3>in Turkey</h3></div>
 
-        <div className='flex flex-row space-x-2'>
+        <div className='flex flex-row space-x-2 sm:space-x-1'>
         <Link href="#about"><button>About Me</button></Link>
         <Link href="#experience"><button>Experience</button></Link>
         <Link href="#skills"><button>Skills</button></Link>

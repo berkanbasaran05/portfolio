@@ -14,6 +14,7 @@ function ContactMe({}: Props) {
     })
   return (
     <div className='h-screen flex relatice flex-col text-white
+     sm:max-w-2xl 
      text-center md:text-left md:flex-col max-w-7xl px-10 justify-evenly mx-auto items-center'>
         <h3  className='top-24 uppercase tracking-[20px] text-white opacity-25 text-2xl'> Contact Me</h3>
 
@@ -27,7 +28,7 @@ function ContactMe({}: Props) {
       className='flex flex-col space-y-10'>
         <h4 className='text-2xl text-center text-white '>
             {text}<Cursor/> {""}
-            <span className='text-white opacity-25 text-2xl '>Lets contact me </span>
+            <span className='text-white opacity-25 text-l '>Lets contact me </span>
         </h4>
 
       <div className='space-y-10 '>
@@ -47,7 +48,7 @@ function ContactMe({}: Props) {
             <p className='uppercase'>Istanbul/Turkey</p>
         </div>
 
-        <form className='flex flex-col space-y-2 w-fit mx-auto'>
+        <form className='flex flex-col space-y-2  mx-auto sm:max-w-xl'>
             <div className='flex space-x-2'> 
             <input className='contactInput' placeholder='Name' type="text"/>
             <input className='contactInput' placeholder='Lastname' type="text"/>
