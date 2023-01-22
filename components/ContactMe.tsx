@@ -14,9 +14,9 @@ function ContactMe({}: Props) {
     })
   return (
     <div className='h-screen flex relatice flex-col text-white
-     sm:max-w-xs text-xs
+     sm:max-w-xs text-[14px]
      text-center md:text-left md:flex-col max-w-xs px-10 justify-evenly mx-auto items-center'>
-        <h3  className='top-24 uppercase tracking-[20px] text-white opacity-25 text-2xl'> Contact Me</h3>
+        <h3  className='top-24 uppercase tracking-[20px] text-white opacity-25 text-2xl'> Contactme </h3>
 
       {/* Contact me form side */}
 
@@ -25,10 +25,10 @@ function ContactMe({}: Props) {
       whileInView={{opacity:1}}
       transition={{duration:2}}
 
-      className='flex flex-col space-y-10'>
-        <h4 className='text-2xl text-center text-white '>
+      className='flex flex-col space-y-12'>
+        <h4 className='text-[20px] text-center text-white space-y-1'>
             {text}<Cursor/> {""}
-            <span className='text-white opacity-25 text-sm '>Lets contact me </span>
+            <span className='text-white opacity-25 text-[20px] '>Lets contact me </span>
         </h4>
 
       <div className='space-y-10 '>
