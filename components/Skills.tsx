@@ -20,8 +20,8 @@ function Skills({}: Props) {
 
          <motion.div
          
-            initial={{x:-200,y:-200,scale:0.5}}
-            whileInView={{x:0, y:0,scale:1}}
+            initial={{y:-200, opacity:0,scale:0.5}}
+            whileInView={{y:0,opacity:1,scale:1}}
             transition={{duration:2}}
             className='grid grid-cols-4 gap-3 pb-4'>
             
