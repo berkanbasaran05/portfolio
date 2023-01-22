@@ -28,7 +28,7 @@ function ContactMe({}: Props) {
       className='flex flex-col space-y-10'>
         <h4 className='text-2xl text-center text-white '>
             {text}<Cursor/> {""}
-            <span className='text-white opacity-25 text-l '>Lets contact me </span>
+            <span className='text-white opacity-25 text-sm '>Lets contact me </span>
         </h4>
 
       <div className='space-y-10 '>
