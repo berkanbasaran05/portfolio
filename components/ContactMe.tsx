@@ -14,8 +14,8 @@ function ContactMe({}: Props) {
     })
   return (
     <div className='h-screen flex relatice flex-col text-white
-     sm:max-w-2xl 
-     text-center md:text-left md:flex-col max-w-7xl px-10 justify-evenly mx-auto items-center'>
+     sm:max-w-xs
+     text-center md:text-left md:flex-col max-w-xs px-10 justify-evenly mx-auto items-center'>
         <h3  className='top-24 uppercase tracking-[20px] text-white opacity-25 text-2xl'> Contact Me</h3>
 
       {/* Contact me form side */}
