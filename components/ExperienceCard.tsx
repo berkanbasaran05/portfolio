@@ -18,7 +18,7 @@ function ExperienceCard({}: Props) {
     transition={{
         duration: 1.2}}
     whileInView={{opacity:1, y:0}}
-    viewport={{once:true}}
+    
     className='w-32 h-32 mt-4 rounded-full xl:w-[200px] xl:h-[200px] object-cover
      object-center'  
     src='https://www.linkpicture.com/q/1673025977937.jpeg'

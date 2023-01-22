@@ -1,4 +1,6 @@
 import About from '@/components/About'
+import ContactMe from '@/components/ContactMe'
+import Footer from '@/components/Footer'
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import Projects from '@/components/Projects'
@@ -48,7 +50,19 @@ export default function Home() {
       </section>
 
       {/* Contact side */}
+
+      <section id='contactme' className='snap-start'>
+        <ContactMe/>
+      </section>
+      {/* Footer side */}
+      <section id='footer' className='snap-center'>
+        <Footer/>
+      </section>
       
     </div>
   )
 }
+
+
+
+

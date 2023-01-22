@@ -20,9 +20,9 @@ function Skills({}: Props) {
 
          <motion.div
          
-            initial={{x:-200,y:-200,scale:0.5,rotate:360}}
-            animate={{x:0,y:0,scale:1,rotate:0}}
-            transition={{duration:1}}
+            initial={{x:-200,y:-200,scale:0.5}}
+            whileInView={{x:0, y:0,scale:1}}
+            transition={{duration:2}}
             className='grid grid-cols-4 gap-3 pb-4'>
             
             <SkillElement/>
@@ -35,26 +35,13 @@ function Skills({}: Props) {
             <SkillElement/>
             <SkillElement/>
             <SkillElement/>
+            <SkillElement/>
+            <SkillElement/>
+            <SkillElement/> <SkillElement/> <SkillElement/> <SkillElement/>
 
          </motion.div>
          
-         <motion.div 
-            initial={{x:200,y:-200,rotate:180}}
-            animate={{x:0,y:0,rotate:0}}
-            transition={{duration:1.2}}
-            className='grid grid-cols-4 gap-3 pt-4'>
-            <SkillElement/>
-            <SkillElement/>
-            <SkillElement/>
-            <SkillElement/>
-            <SkillElement/>
-            <SkillElement/>
-            <SkillElement/>
-            <SkillElement/>
-            <SkillElement/>
-            <SkillElement/>
-
-         </motion.div>
+      
         
         
         

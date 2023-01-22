@@ -8,10 +8,11 @@ const Workexperience = (props: Props) => {
   return (
     <motion.div 
     initial={{
-        opacity:0
+        opacity:0,
+        y:-100
     }}
-    animate={{x:0, y:0, opacity:[0.1,0.2,0.3,0.4,0.5,0.6,1]}}
-    transition={{delay:1.5,}}
+    whileInView={{x:0, y:0, opacity:1}}
+    transition={{duration:1.5}}
     className='flex flex-col relative h-screen overflow-hidden md:text-left md:flex-col  xl:flew-row md:p-10 max-w-full px-10 justify-evenly mx-auto items-center'>
 
     <h3 className=' top-24 mt-20 xl:mt-8 md:mt-8 items-center text-white opacity-25 uppercase tracking-[20px] text-2xl'>
