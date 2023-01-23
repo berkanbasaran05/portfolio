@@ -35,8 +35,8 @@ export default function Home() {
      
 
      <section className='parallaxsection'>
-     <ParallaxText children='Full Stack Developer ' baseVelocity={5}></ParallaxText>
-     <ParallaxText children='Berkan BASARAN' baseVelocity={5}></ParallaxText>
+     <ParallaxText  baseVelocity={5}> Im Full Stack Developer</ParallaxText>
+     <ParallaxText baseVelocity={5}> Work with Me</ParallaxText>
       </section>
 
       
