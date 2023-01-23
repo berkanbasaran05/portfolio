@@ -26,7 +26,7 @@ function Projects({}: Props) {
         initial={{opacity:0,y:-100}}
         whileInView={{opacity:1,y:0}}
         transition={{duration:1.5}}
-        className='w-[700px] rounded-3xl'
+        className='w-[500px] rounded-3xl'
         src='https://fiverr-res.cloudinary.com/images/q_auto,f_auto/gigs/270059097/original/5316bf27a0b7400258c05b4b01d87a69474d50a0/do-flutter-fronted-develop-for-you.png'
         alt=''
         />

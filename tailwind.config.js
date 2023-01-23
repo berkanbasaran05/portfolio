@@ -5,7 +5,12 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundColor:{
+        'progressbg' : 'var(--red)',
+      }
+
+    },
   },
   plugins: [],
 }

@@ -4,6 +4,7 @@ import BackgroundCircles from '@/components/BackgroundCircles'
 import { motion } from 'framer-motion'
 import pic from '@/assets/biometri.png'
 import Link from 'next/link'
+import ParallaxText from './ParallaxText'
 
 type Props = {}
 
@@ -16,7 +17,7 @@ export default function Hero({}: Props) {
         
     })
   return (
-    <motion.div 
+    <motion.div
     initial={{
         opacity:0,
         y:-200,
@@ -36,7 +37,7 @@ export default function Hero({}: Props) {
          <div className='z-20'>
          <h2 className='uppercase pb-2 text-white opacity-25 tracking-[15px]'>software developer</h2>  
          <h1 className='text-5xl lg:text-3xl text-white mt-4 font-semibold scroll-px-10'> <span>{text}</span> <Cursor cursorColor='white'/> </h1>
-        
+         
          {/* about ,experience,skills vs.. buttons */}
          <div className='pt-5'>
          <Link
@@ -53,6 +54,7 @@ export default function Hero({}: Props) {
          <button className='heroButton'>Projects</button> </Link>
 
          </div>
+        
 
          </div>  
     </motion.div>
