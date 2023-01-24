@@ -36,7 +36,7 @@ export default function Home() {
 
      <section className='parallaxsection'>
      <ParallaxText  baseVelocity={5}> Im Full Stack Developer</ParallaxText>
-     <ParallaxText baseVelocity={5}> Work with Me</ParallaxText>
+     <ParallaxText baseVelocity={-5}> Work with Me</ParallaxText>
       </section>
 
       

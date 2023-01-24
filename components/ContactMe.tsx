@@ -15,7 +15,7 @@ function ContactMe({}: Props) {
   return (
     <div className='h-screen flex relatice flex-col text-white
      sm:max-w-xs text-[10px] xl:text-l
-     text-center md:text-left md:flex-col max-w-xs px-10 justify-evenly mx-auto items-center'>
+     text-center md:text-left md:flex-col max-w-xs px-10   justify-evenly mx-auto items-center'>
         <h3  className='top-24 uppercase tracking-[20px] text-white opacity-25 text-2xl'> Contactme </h3>
 
       {/* Contact me form side */}
@@ -31,7 +31,7 @@ function ContactMe({}: Props) {
             <span className='text-white opacity-25 text-[20px] '>Lets contact me </span>
         </h4>
 
-      <div className='space-y-10 '>
+      <div className='space-y-2  '>
 
         <div className='flex items-center space-x-5 justify-center'>
             <PhoneArrowDownLeftIcon className='h-7 w-7 animate-pulse'/>

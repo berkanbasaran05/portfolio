@@ -23,6 +23,7 @@ function Projects({}: Props) {
        className='w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen'>
         
         <motion.img
+        whileHover={{scale:[null, 1.5]}}
         initial={{opacity:0,y:-100}}
         whileInView={{opacity:1,y:0}}
         transition={{duration:1.5}}
