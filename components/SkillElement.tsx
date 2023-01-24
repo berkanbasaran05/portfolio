@@ -8,7 +8,7 @@ function SkillElement({}: Props) {
   return (
     <motion.div 
     
-    whileHover={{scale:[null,1.5]}}
+    whileHover={{scale:[null,1.3],rotate:[null,90,180,360]}}
     className='group flex cursor-pointer relative items-center justify-center'>
      
      
