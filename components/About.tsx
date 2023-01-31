@@ -35,7 +35,8 @@ const About = (props: Props) => {
         
     }}
    transition={{
-    duration:1.2
+    duration:1.2,
+    
    }}
     whileInView={{ x:0}}
     viewport={{once: true}}
