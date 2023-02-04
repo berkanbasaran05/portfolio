@@ -39,7 +39,7 @@ function Skills({}: Props) {
             
             <SkillElement percentage={45} photo='https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png'/>
             <SkillElement percentage={45} photo='https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_251be2af3ae607c45c14e816eaa1cf41/postgresql.png' />
-            <SkillElement percentage={65} photo='https://ih1.redbubble.net/image.1057190283.1918/raf,750x1000,075,t,FFFFFF:97ab1c12de.u1.jpg'/>
+            <SkillElement percentage={75} photo='https://ih1.redbubble.net/image.1057190283.1918/raf,750x1000,075,t,FFFFFF:97ab1c12de.u1.jpg'/>
             
             
 
