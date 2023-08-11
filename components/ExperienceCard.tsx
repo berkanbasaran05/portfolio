@@ -1,9 +1,15 @@
 import React from 'react'
 import { motion } from 'framer-motion'
+import { describe } from 'node:test';
 
-type Props = {}
+type Props = {
+  describe:string;
+  projectTitle:string;
+  myTitleOfProject:string;
+}
 
-function ExperienceCard({}: Props) {
+  
+  function ExperienceCard({describe,projectTitle, myTitleOfProject }: Props) {
   return (
     <article
     
@@ -25,36 +31,16 @@ function ExperienceCard({}: Props) {
     alt=''
     />
     <div className='px-0 md:px-10'>
-      <h4 className='text-white text-sm uppercase font-light'>Ceo of SolWARRIOR</h4>
-      <p className='font-bold text-m mt-1 text-white  opacity-25'>SOLWARRIOR </p> 
+      <h4 className='text-white text-sm uppercase font-light'>{myTitleOfProject}</h4>
+      <p className='font-bold text-m mt-1 text-white  opacity-25'>{projectTitle} </p> 
       <div className='flex space-x-2 my-2'> 
-       <img 
-       className='h-10 w-10 rounded-full'
-       src='https://pbs.twimg.com/profile_images/1456412742961799168/p1uuQ0_7_400x400.jpg'
-       />
-        <img 
-       className='h-10 w-10 rounded-full'
-       src='https://pbs.twimg.com/profile_images/1456412742961799168/p1uuQ0_7_400x400.jpg'
-       />
-        
-        <img 
-       className='h-10 w-10 rounded-full'
-       src='https://pbs.twimg.com/profile_images/1456412742961799168/p1uuQ0_7_400x400.jpg'
-       />
+       
      </div>  
-     <p className='uppercase  text-gray-300 text-sm'>Started work ... -Ended..</p>
+     <p className='uppercase  text-gray-300 text-sm'>About Company</p>
 
-       <ul className='list-disc space-y-4 mt-2 ml-4 text-[8px] md:text-xs text-white opacity-25'>
-        <li>hey hey hey hey hey heyhey hey hey</li>
-        <li>hey hey hey hey hey heyhey hey hey</li>
-        <li>hey hey hey hey hey heyhey hey hey</li>
-        <li>hey hey hey hey hey heyhey hey hey</li>
-        <li>hey hey hey hey hey heyhey hey hey</li>    
-
-
-
-
-        </ul>
+      <span className='list-disc space-y-4 mt-2 text-[8px] md:text-xs text-white opacity-25'>
+        {describe}
+      </span>
         
        
     </div>    
