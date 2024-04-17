@@ -20,8 +20,13 @@ const Workexperience = (props: Props) => {
     </h3>
      <div className='w-full flex space-x-5 overflow-x-scroll p-10 mb-4  snap-x snap-mandatory'>
      <ExperienceCard projectTitle='Yoorum.com'  myTitleOfProject='Software Developer' describe='I was javascript Full-Stack software developer on Yoorum. Yoorum was project for reviewing of products and brands.I used Next JS for fronted and Nest Js for backend development.'/>
-     <ExperienceCard projectTitle='Sosyaldugun.com'  myTitleOfProject='Software Developer' describe='I was Full-Stack software developer on Sosyaldugun. Sosyal was project live stream and automation system for wedding places.I used Next JS for fronted and Nest Js for backend development.'/>
-
+     <ExperienceCard projectTitle='hizmeto.com'  myTitleOfProject='Software Developer' describe='I was javascript Full-Stack software developer on Yoorum. Yoorum was project for reviewing of products and brands.I used Next JS for fronted and Nest Js for backend development.'/>
+     <ExperienceCard projectTitle='fabricfleet.com'  myTitleOfProject='Software Developer' describe='I was javascript Full-Stack software developer on Yoorum. Yoorum was project for reviewing of products and brands.I used Next JS for fronted and Nest Js for backend development.'/>
+     <ExperienceCard projectTitle='Sosyaldugun.com'  myTitleOfProject='Software Developer' describe='I was Full-Stack software developer on the project. .I used Next JS for fronted and Nest Js for backend development.'/>
+     <ExperienceCard projectTitle='cihangir.k12.tr'  myTitleOfProject='Software Developer' describe='I was Full-Stack software developer on the project.I used Next JS for fronted and Nest Js for backend development.'/>
+     <ExperienceCard projectTitle='regeditbilisim.com'  myTitleOfProject='Software Developer' describe='I was Full-Stack software developer on the project.I used Next JS for fronted and Nest Js for backend development.'/>
+     <ExperienceCard projectTitle='mypinball.eu'  myTitleOfProject='Software Developer' describe='I was Full-Stack software developer on the project.I used Next JS for fronted and Nest Js for backend development.'/>
+     <ExperienceCard projectTitle='kiosk self-order system'  myTitleOfProject='Software Developer' describe='I was Full-Stack software developer on the project.I used Next JS for fronted and Nest Js for backend development.'/>
      </div>
     
 
