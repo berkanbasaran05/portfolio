@@ -114,9 +114,9 @@ const Demo = (props: Props) => {
   };
 
   return (
-    <section className="bg-black flex w-full h-full py-12 justify-center items-center">
+    <section className="bg-black flex w-full h-full py-12 justify-center px-4 items-center">
       <div
-        className={`bg-[#1a1a2a] max-w-6xl flex flex-col space-y-8 w-full p-8 rounded-lg ${
+        className={`bg-[#1a1a2a] max-w-6xl flex flex-col space-y-8  w-full p-8 rounded-lg ${
           openCard ? "h-full" : "h-24"
         }`}
       >
@@ -153,11 +153,13 @@ const Demo = (props: Props) => {
           </button>
         </div>
         {openCard && (
-          <div className={`grid grid-cols-4 gap-4 h-full`}>
+          <div
+            className={`grid grid-cols-1 md:grid-cols-4 items-center justify-center gap-4 h-full`}
+          >
             {cardItems.map((e) => (
               <div
                 key={e.id}
-                className={`shadow-xl border border-[#161621] relative bg-[#151521] w-[200px] h-[285px] flex flex-col items-center rounded-3xl`}
+                className={`shadow-xl border border-[#161621] relative mx-auto bg-[#151521] px-4 w-[200px] h-[285px] flex flex-col items-center rounded-3xl`}
                 onClick={() => toggleCardSelection(e.id)}
               >
                 <div className="flex items-center justify-center w-full h-1/2">
