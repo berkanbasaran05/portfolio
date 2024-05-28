@@ -41,7 +41,7 @@ const cardItems = [
   },
   {
     id: 4,
-    player_name: "Giannis Antetokounmpo",
+    player_name: "Giannis",
     vs: "MIL vs CHI",
     date: "Wed 7:30pm",
     point: 28.4,
