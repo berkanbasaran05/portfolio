@@ -10,9 +10,11 @@ import Scrollintest from '@/components/Scrollintest'
 import Skills from '@/components/Skills'
 import Workexperience from '@/components/Workexperience'
 import Head from 'next/head'
+import { useState } from 'react'
 
 {/** snap-mandatory */}
 export default function Home() {
+
   return (
     <div className='bg-black
    h-screen snap-y overflow-scroll z-0'>

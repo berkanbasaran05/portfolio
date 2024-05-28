@@ -6,10 +6,13 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundColor:{
-        'progressbg' : 'var(--red)',
-      }
-
+      fontFamily: {
+        bebas: ['"Bebas Neue"', 'cursive'],
+        inter: ["Inter", "sans-serif"],
+      },
+      backgroundColor: {
+        'progressbg': 'var(--red)',
+      },
     },
   },
   plugins: [],
